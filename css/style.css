@@ -94,20 +94,76 @@ i:hover {
       font-size: 1.5rem;
       text-align: center;
     }
-
   }
+
+
+
+  @media screen and (max-width: 720px) {
+
+      .container {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      #header h1 {
+        font-size: 1.75rem;
+        text-align: center;
+      }
+
+      #header h3 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      #header > * {
+      width: 108%;
+      }
+
+      ul li {
+      display: inline-block;
+      text-align: center;
+      padding: 1px 0px;
+      font-size: 1.45em;
+    }
+
+      .image.avatar img {
+      width: 50%;
+      max-width: 6.5rem
+    }
+
+    #header {
+      min-width: 28%;
+    }
+
+    #main {
+      margin-left: 28%;
+      width: calc(100% - 28%);
+      padding: 4em 2em 2em 2em;
+    }
+
+    }
 
   @media screen and (max-width: 480px) {
 
     .container {
       max-width: calc(100% - 3em);
     }
+
     ul li {
       display: inline-block;
+      text-align: center;
+      padding: 1px 0px;
+      font-size: 1.45em;
     }
 
     .image.avatar img {
-      width: 75%;
+      width: 50%;
+      max-width: 4.5rem
     }
 
     h1 {
@@ -115,15 +171,38 @@ i:hover {
       text-align: center;
     }
 
+    #header h1 {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    #header h3 {
+      font-size: 0.8rem;
+      text-align: center;
+     }
+
+    h3 {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 1.25rem;
+      text-align: -webkit-center;
+    }
+
     header.major h2 {
     font-size: 1.5em;
-  }
+    }
+
     #header {
-      width: 38%;
+      min-width: 38%;
     }
 
     #main {
+      margin-left: 38%;
       width: calc(100% - 38%);
+      padding: 4em 2em 2em 2em;
     }
 
     #header h1 {
