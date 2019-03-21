@@ -1809,6 +1809,10 @@ width: 25%;
   color: #545454;
 }
 
+#header h4 {
+  color: #6c757d;
+}
+
 /* Main */
 
 #main {
