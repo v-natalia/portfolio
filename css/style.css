@@ -90,6 +90,11 @@ i:hover {
       max-width: 100% !important;
     }
 
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
   }
 
   @media screen and (max-width: 480px) {
@@ -97,7 +102,45 @@ i:hover {
     .container {
       max-width: calc(100% - 3em);
     }
+    ul li {
+      display: inline-block;
+    }
 
+    .image.avatar img {
+      width: 75%;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    header.major h2 {
+    font-size: 1.5em;
+  }
+    #header {
+      width: 38%;
+    }
+
+    #main {
+      width: calc(100% - 38%);
+    }
+
+    #header h1 {
+    font-size: 1.35em;
+    }
+
+    #header h2 {
+      font-size: 1em;
+    }
+
+    #header p {
+      font-size: 0.8em;
+    }
+
+    #header .image.avatar {
+      width: 5.25em;
+    }
   }
 
 /* Row */
