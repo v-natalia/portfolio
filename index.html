@@ -74,6 +74,27 @@
           </div>
         </div>
       </section>
+      <section>
+        <h3>Formulaire de contact</h3>
+        <form class="form-group" action="https://formspree.io/nvegar@gmail.com" method="POST"/>
+          <input type="text" for="validationServer01" class="form-group form-control is-valid" placeholder="Votre nom" name="name" id="validationServer01" required>
+          <div class="invalid-feedback">
+          Veuillez à completer tous les champs.
+          </div>
+          <input type="email" for="validationServer02" class="form-group form-control is-valid" placeholder="Email" name="_replyto" id="validationServer02" required>
+          <small id="emailHelp" class="form-text text-muted">Je ne communiquerai pas votre adresse e-mail.</small>
+          <div class="invalid-feedback">Veuillez à completer tous les champs.
+          </div>
+          <div class="input-group-prepend">
+          <textarea class="form-control" aria-label="With textarea" for="validationServer03" class="form-group  form-control is-valid" placeholder="Votre message" name="message" id="validationServer03" required></textarea>
+          <span class="input-group-text"></span>
+          </div>
+          <div class="invalid-feedback">
+            Veuillez à completer tous les champs.
+          </div>
+          <input type="submit" class="form-group btn btn-success" value="Envoyer">
+        </form>
+      </section>
     </div>
   </body>
 </html>
