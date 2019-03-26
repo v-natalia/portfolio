@@ -19,6 +19,7 @@
     <meta property="og:description" content="Natalia Vega | Programmer">
     <meta property="og:site_name" content="Natalia Vega"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Sarabun:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
@@ -47,39 +48,77 @@
     </div>
     <div id="main">
       <section id="first">
-        <header class="major">
-          <h3><strong>Développeuse Fullstack,</strong> j'ai récemment fini ma formation  au bootcamp <a href="https://www.lewagon.com/paris">Le Wagon</a>(Batch#220, Hiver 2019)</h3>
+        <header class="major text-justify">
+          <h3><strong>Développeuse Fullstack,</strong> j'ai récemment fini ma formation  au bootcamp <a href="https://www.lewagon.com/paris">Le Wagon</a> (Batch#220, Hiver 2019)</h3>
           <br>
-          <h4>#RubyOnRails #PostgreSQL #heroku #git #HTML #CSS #Prototyping #InterfaceDesign #Photoshop</h4>
+          <div class="tags">
+            <span class="badge badge-light">#RubyOnRails</span>
+            <span class="badge badge-light">#PostgreSQL</span>
+            <span class="badge badge-light">#heroku</span>
+            <span class="badge badge-light">#git</span>
+            <span class="badge badge-light">#HTML</span>
+            <span class="badge badge-light">#CSS</span>
+            <span class="badge badge-light">#Photoshop</span>
+          </div>
           <br>
-          <p>Passionnée par la photographie, avec une capacité d'analyse et de synthèse. Je peux être créative et rigoureuse à la fois, je suis curieuse envers la nouveauté, je cherche une activité stimulante et je peux suivre un rythme de travail intense. Je cherche à rejoindre une équipe des talents qui veulent avoir un impact positif sur le monde.</p>
+          <div class="paragraph">
+            <p>Passionnée par la photographie, avec une capacité d'analyse et de synthèse. Je peux être créative et rigoureuse à la fois, je suis curieuse envers la nouveauté, je cherche une activité stimulante et je peux suivre un rythme de travail intense. Je cherche à rejoindre une équipe des talents qui veulent avoir un impact positif sur le monde.</p>
+          </div>
         </header>
       </section>
       <section id="cards">
         <h2>Projets</h2>
         <div class="row">
           <div class="col-6 col-12-xsmall work-item">
-            <a href="https://www.reecover.fr" target="_blank" class="image fit thumb"><img src="images/homepage-reecover-og-image-1200x630.png" alt="reecover"></a>
-              <h3>Reecover</h3>
-              <p>Ce site est le projet de fin de cours réalisé en équipe pendant les 2 dernières semaines au Wagon.C'est une application Rails pour les sportives en fin de carrière qui cherchent à développer son projet de reconversion professionnelle.</p>
+            <div class="card">
+              <div class="card-content">
+                <a href="https://www.reecover.fr" target="_blank" class="image fit thumb"><img src="images/homepage-reecover-og-image-1200x630.png" alt="reecover"></a>
+                <h3 class="open-reveal"><strong>Reecover</strong></h3><span class="card-title activator right"><i class="material-icons fas fa-plus"></i></span>
+              </div>
+              <div class="card-reveal">
+                <h3><span class="card-title">Reecover<i class="material-icons fas fa-times right text-small"></i></span></h3>
+                <p>Ce site est le projet de fin de cours réalisé en équipe pendant les 2 dernières semaines au Wagon.C'est une application Rails pour les sportives en fin de carrière qui cherchent à développer son projet de reconversion professionnelle.</p>
+              </div>
+            </div>
           </div>
           <div class="col-6 col-12-xsmall work-item">
-            <a href="https://github.com/v-natalia/ECR_LARC-eLifeAmbassadors" target="_blank" class="image fit thumb"><img src="images/ECR_LARC.jpg" alt="ECR-LARC"></a>
-            <h3><strong>ECR-LARC</strong> <!-- <br>Bourses et financements pour des chercheurs provenant de l'Amérique Latine #eLifeAmbassadors --></h3>
-            <p><!-- eLife est un journal scientifique en libre accès qui publie des articles de recherche en biologie et en médecine.  -->L'initiative #eLifeAmbassadors cherche à encourager la diffusion des résultats scientifiques dans les communautés locales, tout en les connectant avec les développements internationaux. Ce site a été crée pour faciliter l'accès des jeunes chercheurs latino-américains aux informations des bourses et financements de la recherche.</p>
-            <p><small class="text-muted">En progrès</small></p>
+            <div class="card">
+              <div class="card-content">
+                <a href="https://github.com/v-natalia/ECR_LARC-eLifeAmbassadors" target="_blank" class="image fit thumb"><img src="images/ECR_LARC.jpg" alt="ECR-LARC"></a>
+                <h3 class="open-reveal"><strong>ECR-LARC</strong><br>Bourses et financements pour des chercheurs provenant de l'Amérique Latine #eLifeAmbassadors</h3><span class="card-title activator right"><i class="material-icons fas fa-plus"></i></span>
+              </div>
+              <div class="card-reveal">
+                <h3><span class="card-title">ECR-LARC<i class="material-icons fas fa-times right text-small"></i></span></h3>
+                <p>eLife est un journal scientifique en libre accès qui publie des articles de recherche en biologie et en médecine. L'initiative #eLifeAmbassadors cherche à encourager la diffusion des résultats scientifiques dans les communautés locales, tout en les connectant avec les développements internationaux. Ce site a été crée pour faciliter l'accès des jeunes chercheurs latino-américains aux informations des bourses et financements de la recherche.</p>
+                <p><span class="badge badge-pill badge-default"><small class="text-muted">En Progrès</small></span></p>
+              </div>
+            </div>
           </div>
           <div class="col-6 col-12-xsmall work-item">
-            <a href="https://github.com/v-natalia/clockwork" target="_blank" class="image fit thumb"><img src="images/clockwork.jpg" alt=""></a>
-            <h3>Clockwork</h3>
-            <p>Ce site est un projet personnel que j'ai créé pour travailler mes habilités en JS.En tant que ninja de l'optimisation du tout, j'ai désigné cette application Rails pour optimiser l'utilisation du temps dans des courtes périodes (au max 1 heure).</p>
-            <p><small class="text-muted">En Progrès</small></p>
+            <div class="card">
+              <div class="card-content">
+                <a href="https://github.com/v-natalia/clockwork" target="_blank" class="image fit thumb"><img src="images/clockwork.jpg" alt=""></a>
+                <h3 class="open-reveal"><strong>Clockwork</strong></h3><span class="card-title activator right"><i class="material-icons fas fa-plus"></i></span>
+              </div>
+              <div class="card-reveal">
+                <h3><span class="card-title">Clockwork<i class="material-icons fas fa-times right text-small"></i></span></h3>
+                <p>Ce site est un projet personnel que j'ai créé pour travailler mes habilités en JS.En tant que ninja de l'optimisation du tout, j'ai désigné cette application Rails pour optimiser l'utilisation du temps dans des courtes périodes (au max 1 heure).</p>
+                <p><span class="badge badge-pill badge-default"><small class="text-muted">En Progrès</small></span></p>
+              </div>
+            </div>
           </div>
           <div class="col-6 col-12-xsmall work-item">
-            <a href="https://missmocktail.herokuapp.com/" target="_blank" class="image fit thumb"><img src="images/missmocktail.jpg" alt="miss_mocktail"></a>
-            <h3>Miss Mocktail</h3>
-            <p>Projet développé de manière individuelle pendant 2 jours au Wagon.</p>
-            <p><small class="text-muted">En progrès</small></p>
+            <div class="card">
+              <div class="card-content">
+                <a href="https://missmocktail.herokuapp.com/" target="_blank" class="image fit thumb"><img src="images/missmocktail.jpg" alt="miss_mocktail"></a>
+                <h3 class="open-reveal"><strong>Miss Mocktail</strong></h3><span class="card-title activator right"><i class="material-icons fas fa-plus"></i></span>
+              </div>
+              <div class="card-reveal">
+                <h3><span class="card-title">Miss Mocktail<i class="material-icons fas fa-times right text-small"></i></span></h3>
+                <p>Projet développé de manière individuelle pendant 2 jours au Wagon.</p>
+                <p><span class="badge badge-pill badge-default"><small class="text-muted">En Progrès</small></span></p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -107,5 +146,7 @@
         </div>
       </section>
     </div>
+    <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
