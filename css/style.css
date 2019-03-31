@@ -163,7 +163,7 @@ a:hover {
         text-align: center;
       }
 
-      #header h3 {
+      #header h4 {
         font-size: 1.15rem;
         text-align: center;
       }
@@ -224,9 +224,15 @@ a:hover {
       font-size: 1.25em !important;
     }
 
+    .list-inline  {
+      margin-right: 1.5em;
+    }
+
     .image.avatar img {
       width: 50%;
       max-width: 4.5rem
+      margin-left: 1.1em;
+      margin-right: 1.1em;
     }
 
     h1 {
@@ -239,7 +245,7 @@ a:hover {
       text-align: center;
     }
 
-    #header h3 {
+    #header h4 {
       font-size: 1.15rem;
       text-align: center;
      }
@@ -266,7 +272,7 @@ a:hover {
       margin-left: 38% !important;
       margin-right: 2% !important;
       width: calc(100% - 40%) !important;
-      padding: 4em 2em 2em 2em;
+      padding: 2em 1em 1em 1em !important;
     }
 
     #header h1 {
@@ -286,7 +292,15 @@ a:hover {
     }
 
     #main .paragraph {
-      padding-top: 10%;
+      padding-top: 31%;
+    }
+
+    .card .card-title {
+      font-size: 0.8rem;
+    }
+
+    .work-item p {
+      font-size: 0.8rem !important;
     }
   }
 
@@ -294,6 +308,13 @@ a:hover {
 
     ul {
       display: inline-table;
+      margin-right: 2em;
+    }
+    .image.avatar img {
+      max-width: 4.5rem
+      margin-left: 1.1em;
+      margin-right: 1.1em;
+    }
     }
   }
 
@@ -1981,12 +2002,12 @@ width: 25%;
   color: #545454;
 }
 
-#header h4 {
+/*#header h4 {
   color: #6c757d;
-}
+}*/
 
-#header h3 {
-  font-size: 1.75em;
+#header h4 {
+  font-size: 1.75em !important;
 }
 
 /* Main */
