@@ -310,11 +310,27 @@ a:hover {
       display: inline-table;
       margin-right: 2em;
     }
+
+    ul li {
+      padding: 8px 1.5px;
+    }
+
     .image.avatar img {
       max-width: 4.5rem
       margin-left: 1.1em;
       margin-right: 1.1em;
     }
+
+    #header h4 {
+    font-size: 1.1em !important;
+    }
+
+   .card .card-title {
+      font-size: 0.7rem;
+    }
+
+    .work-item p {
+      font-size: 0.7rem !important;
     }
   }
 
@@ -2005,10 +2021,10 @@ width: 25%;
 /*#header h4 {
   color: #6c757d;
 }*/
-
+/*
 #header h4 {
   font-size: 1.75em !important;
-}
+}*/
 
 /* Main */
 
