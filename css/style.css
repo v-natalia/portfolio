@@ -50,6 +50,10 @@ a:hover {
   text-decoration: none;
 }
 
+.extra {
+  margin-bottom: 5px !important;
+}
+
 #cards i {
   -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -1962,7 +1966,7 @@ align-items: flex-end;
 -webkit-justify-content: space-between;
 -ms-justify-content: space-between;
 justify-content: space-between;
-background-color: #545454;
+background-image: linear-gradient(to right bottom, #86a8e7, #8396c9, #7c86ad, #737691, #676776, #636470, #616269, #5e5f63, #63686e, #677278, #6a7d80, #708785);
 background-attachment: scroll, scroll;
 background-position: top left, top left;
 background-repeat: repeat, no-repeat;
@@ -2037,7 +2041,7 @@ width: 25%;
 }
 
 #main > section {
-  border-top: solid 2px #efefef;
+  border-top: solid 3px #708785;
   margin: 4em 0 0 0;
   padding: 4em 0 0 0;
 }
