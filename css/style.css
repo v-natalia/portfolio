@@ -69,6 +69,14 @@ a:hover {
   text-decoration: none;
 }
 
+.clients {
+  font-size: 1.15rem !important;
+}
+
+.logo-original {
+  max-width: 250px !important;
+}
+
 /* Container */
 
 .container {
